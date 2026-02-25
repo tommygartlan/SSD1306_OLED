@@ -1,7 +1,9 @@
 #include "ssd1306_v2.h"
-#include "../Proj_26.X/mcc_generated_files/system/system.h"
-//#include <xc.h>
-#include "../I2C_Library/I2C_Func_Simple_v2.h"
+//#include "../Proj_26.X/mcc_generated_files/system/system.h"
+#include <xc.h>
+//#include"../S_26.X/mcc_generated_files/system/clock.h"   //Clock freq from project setting
+#include "clock.h" //in project properties , global compiler options, include directories (mcc_generated_files/system)
+#include "../Curioisty_I2C_Library-main/I2C_Func_Simple_v2.h"
 #include <string.h>
 
 #define SSD1306_I2C_ADDR   0x3D
