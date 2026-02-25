@@ -2,7 +2,7 @@
 #define SSD1306_H
 
 #include <stdint.h>
-#include <stdbool.h>
+//#include <stdbool.h>
 
 // Display size
 #define SSD1306_WIDTH   128
@@ -45,3 +45,4 @@ void SSD1306_PowerDown(void);
 void SSD1306_PowerUp(void);
 
 #endif
+
